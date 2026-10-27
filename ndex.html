@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Área de estudos</title>
+
+    <link rel="stylesheet" href="stylee.css">
+    <script src="scriptt.js" defer></script>
+</head>
+<body>
+
+    <header class="topbar">
+        <a class="marca" href="conteudos.html">
+            <span>📚</span>
+            Matemática 
+        </a>
+
+        <span class="identificacao">Área de estudos</span>
+    </header>
+
+    <main class="layout">
+
+        <aside class="sidebar">
+            <h2>Seus estudos</h2>
+            <p class="descricao">Escolha o trimestre</p>
+
+            <nav id="trimestres" class="trimestres">
+                <button class="trimestre ativo" data-trimestre="1">
+                    1º trimestre
+                </button>
+                <button class="trimestre" data-trimestre="2">
+                    2º trimestre
+                </button>
+                <button class="trimestre" data-trimestre="3">
+                    3º trimestre
+                </button>
+            </nav>
+
+            <div class="aviso">
+                <strong>Organize seus estudos!</strong>
+                <p>Escolha uma categoria e abra o conteúdo desejado.</p>
+            </div>
+        </aside>
+
+        <section class="area-principal">
+
+            <div class="boas-vindas">
+                <p class="etiqueta">SUA PLATAFORMA DE ESTUDOS FAVORITA</p>
+                <h1 id="titulo-trimestre">1º trimestre</h1>
+                <p>Aprenda no seu ritmo e pratique o que estudou.</p>
+            </div>
+
+            <nav id="categorias" class="categorias">
+                <button class="categoria ativa" data-categoria="resumos">
+                    📖 Resumos
+                </button>
+                <button class="categoria" data-categoria="atividades">
+                    ✏️ Atividades
+                </button>
+                <button class="categoria" data-categoria="flashcards">
+                    🗂️ Flash cards
+                </button>
+                <button class="categoria" data-categoria="simulado">
+                    📝 Simulado
+                </button>
+                <button class="categoria" data-categoria="videos">
+                    ▶️ Vídeos
+                </button>
+            </nav>
+
+            <div class="cabecalho-conteudo">
+                <div>
+                    <h2 id="titulo-categoria">Resumos</h2>
+                    <p id="subtitulo-categoria">
+                        Revise os principais conteúdos.
+                    </p>
+                </div>
+            </div>
+
+            <div id="conteudo" class="conteudo">
+                <p>Carregando conteúdos...</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        Matemática · Aprender fica mais fácil com organização.
+    </footer>
+
+</body>
+</html>
