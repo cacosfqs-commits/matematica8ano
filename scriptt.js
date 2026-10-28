@@ -19,8 +19,6 @@ let flashcardsAtuais = [];
 let flashcardAtual = 0;
 let mostrandoResposta = false;
 
-// CONTEÚDOS DE EXEMPLO.
-// Depois, substitua estes dados pelos materiais da sua amiga.
 
 const dados = {
     1: {
@@ -98,8 +96,8 @@ const dados = {
         videos: [
             {
                 titulo: "Vídeos de Matemática",
-                descricao: "Troque este link pelo vídeo indicado pela sua amiga.",
-                url: "https://www.youtube.com/"
+                descricao: "acesse os videos pelo link abaixo",
+                url: "https://knowunity.com.br/webapp/library/ff02b568-a51f-4d93-bea0-f61a54c57da8"
             }
         ]
     },
